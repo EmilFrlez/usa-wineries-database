@@ -1,0 +1,11 @@
+echo "# USA Wineries Database" >> README.md
+#echo "*.mp4" >> .gitignore
+git init
+git add .
+git commit -m "first commit"
+
+#git remote set-url origin git@github.com/EmilFrlez/lymphopenia-ml.git
+git remote add origin https://github.com/EmilFrlez/usa-wineries-database.git
+git remote -v
+git pull origin master
+git push -u origin master
